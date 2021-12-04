@@ -1,0 +1,17 @@
+:root {
+    --text: #eee;
+    --background: #010409;
+    --foreground-side: #0D1117;
+    --foreground: rgba(22, 27, 34, 0.7);
+    --blue-sky: #00F0E1;
+}
+
+body {
+    color: var(--text);
+    font-family: "Ubuntu";
+
+    background: url("../media/img/background/blogBg.jpg");
+    background-size: cover;
+
+    margin: 0;
+}
