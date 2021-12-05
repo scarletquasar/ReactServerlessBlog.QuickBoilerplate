@@ -5,11 +5,11 @@ import { useState, useEffect } from "react";
 import { languageContext } from "../../contexts/languageContext";
 import { useContext } from "react";
 
-function PostsContainer() {
+function PostsContainer(props) {
     const [posts, setPosts] = useState(null);
     const [userLang] = useContext(languageContext);
 
-    useEffect(() => fetchPosts(new Date()).then(result => setPosts(result)), []);
+    useEffect(() => fetchPosts(new Date(), props.query).then(result => setPosts(result)), []);
 
     return (
         <section>
