@@ -1,23 +1,35 @@
 [
     {
         "id": 2,
-        "title": "Test Post",
-        "miniature": null,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
-        "source": null
+        "enUs-title": "Test Post",
+        "enUs-miniature": null,
+        "enUs-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
+        "enUs-source": null,
+        "ptBr-title": "Postagem de Teste",
+        "ptBr-miniature": null,
+        "ptBr-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
+        "ptBr-source": null
     },
     {
         "id": 1,
-        "title": "Test Post",
-        "miniature": null,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
-        "source": null
+        "enUs-title": "Test Post",
+        "enUs-miniature": null,
+        "enUs-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
+        "enUs-source": null,
+        "ptBr-title": "Postagem de Teste",
+        "ptBr-miniature": null,
+        "ptBr-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
+        "ptBr-source": null
     },
     {
         "id": 0,
-        "title": "Test Post",
-        "miniature": null,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
-        "source": null
+        "enUs-title": "Test Post",
+        "enUs-miniature": null,
+        "enUs-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
+        "enUs-source": null,
+        "ptBr-title": "Postagem de Teste",
+        "ptBr-miniature": null,
+        "ptBr-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
+        "ptBr-source": null
     }
 ]

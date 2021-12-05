@@ -2,8 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { language } from './data/languageManager';
 import "./styles/global.css";
 import "./styles/imports.css";
+
+if(!language()) language("en-Us");
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,5 +1,7 @@
 import "./NavigationBar.css";
 import { Link } from "react-router-dom";
+import { language } from "../../data/languageManager";
+
 function NavigationBar() {
     return (
         <nav>
@@ -7,7 +9,7 @@ function NavigationBar() {
                 <li id="title">quasardev</li>
             </ul>
             <ul>
-                <li>pt-Br</li>
+                <li>{language()}</li>
                 <li><Link to="/">Home</Link></li>
             </ul>
         </nav>
