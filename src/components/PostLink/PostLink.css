@@ -5,6 +5,6 @@ article {
 
     border-radius: 1em;
 
-    background: var(--foreground);
+    background: var(--foreground-clean);
     backdrop-filter: blur(5em);
 }
