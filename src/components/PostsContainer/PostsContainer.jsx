@@ -18,8 +18,9 @@ function PostsContainer() {
                     return <PostLink 
                     title={post[`${userLang}-title`]} 
                     description={post[`${userLang}-description`]} 
-                    source={post[`source`]} 
+                    source={post.source} 
                     background={post[`${userLang}-background`]}
+                    tags={post.tags}
                     key={Date.now() + Math.random()}
                     />
                 }

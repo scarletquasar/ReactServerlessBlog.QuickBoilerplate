@@ -13,6 +13,7 @@ function PostLink(props) {
             <article>
                 <div>
                     <h2>{props.title ?? "Post"}</h2>
+                    <small>{props.tags.flat()}</small>
                     <p>
                         {props.description ?? `Lorem ipsum dolor sit amet, consectetur adipiscing 
                         elit. Proin fringilla lobortis lorem ut ullamcorper. Pellentesque ultrices, 

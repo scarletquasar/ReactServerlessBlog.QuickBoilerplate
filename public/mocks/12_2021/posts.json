@@ -7,6 +7,7 @@
         "pt-Br-title": "Postagem de Teste",
         "pt-Br-miniature": null,
         "pt-Br-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
-        "source": "post1"
+        "source": "post1",
+        "tags": ["tag1, tag2, tag3"]
     }
 ]

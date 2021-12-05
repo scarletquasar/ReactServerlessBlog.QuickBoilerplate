@@ -1,5 +1,6 @@
 :root {
     --text: #eee;
+    --text-secondary: #ccc;
     --background: #010409;
     --foreground-side: #0D1117;
     --foreground: rgba(22, 27, 34, 0.7);

@@ -24,6 +24,7 @@ article div {
 
 article p {
     margin: 0;
+    margin-top: 1%;
     padding: 0;
 }
 
@@ -48,4 +49,9 @@ article div:last-child {
     flex-direction: row-reverse;
 
     font-family: "Raleway";
+}
+
+small {
+    color: var(--text-secondary);
+    font-family: "Source Code Pro";
 }
