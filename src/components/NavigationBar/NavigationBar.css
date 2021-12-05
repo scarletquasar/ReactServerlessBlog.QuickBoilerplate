@@ -63,4 +63,8 @@
     nav ul #title:hover {
         border: 0.2em solid transparent;
     }
+
+    a {
+        height: 100%;
+    }
 }
