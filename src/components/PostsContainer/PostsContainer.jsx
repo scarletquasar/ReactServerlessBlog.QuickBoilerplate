@@ -20,7 +20,7 @@ function PostsContainer() {
                     description={post[`${userLang}-description`]} 
                     source={post.source} 
                     background={post[`${userLang}-background`]}
-                    tags={post.tags}
+                    tags={post[`${userLang}-tags`]}
                     key={Date.now() + Math.random()}
                     />
                 }

@@ -8,6 +8,7 @@
         "pt-Br-miniature": null,
         "pt-Br-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
         "source": "post1",
-        "tags": ["tag1, tag2, tag3"]
+        "pt-Br-tags": ["JavaScript, Infraestrutura, Back-end"],
+        "en-Us-tags": ["JavaScript, Infrastructure, Back-end"]
     }
 ]
