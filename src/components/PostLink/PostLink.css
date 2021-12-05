@@ -7,4 +7,28 @@ article {
 
     background: var(--foreground-clean);
     backdrop-filter: blur(5em);
+
+    display: flex;
+}
+
+article div:first-child {
+    margin-inline: 3%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+
+    font-family: "Raleway";
+}
+
+article div:last-child {
+    width: 50%;
+    height: 100%;
+
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    
+    display: flex;
+    flex-direction: row-reverse;
+
+    font-family: "Raleway";
 }

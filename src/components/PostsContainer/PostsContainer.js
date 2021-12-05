@@ -4,7 +4,7 @@ import PostLink from "../PostLink/PostLink";
 function PostsContainer() {
     return (
         <section>
-            <PostLink />
+            <PostLink title="Test"/>
             <PostLink />
             <PostLink />
         </section>
