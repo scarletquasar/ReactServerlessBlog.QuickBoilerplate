@@ -1,0 +1,11 @@
+section {
+    font-family: "Raleway";
+    padding-left: 3%;
+
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+section h1 {
+    font-size: 2em;
+}

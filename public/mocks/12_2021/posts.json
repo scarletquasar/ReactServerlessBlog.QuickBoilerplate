@@ -1,0 +1,23 @@
+[
+    {
+        "id": 2,
+        "title": "Test Post",
+        "miniature": null,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
+        "source": null
+    },
+    {
+        "id": 1,
+        "title": "Test Post",
+        "miniature": null,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
+        "source": null
+    },
+    {
+        "id": 0,
+        "title": "Test Post",
+        "miniature": null,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
+        "source": null
+    }
+]

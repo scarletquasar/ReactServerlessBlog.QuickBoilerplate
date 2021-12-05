@@ -1,6 +1,6 @@
 import React from "react";
-import PostsContainer from "../../components/PostsContainer/PostsContainer.js";
-import SideBar from "../../components/SideBar/SideBar.js";
+import PostsContainer from "../../components/PostsContainer/PostsContainer.jsx";
+import SideBar from "../../components/SideBar/SideBar.jsx";
 
 function Home() {
     return (

@@ -1,5 +1,6 @@
-import Home from "./pages/Home/Home.js";
-import NavigationBar from "./components/NavigationBar/NavigationBar.js";
+import Home from "./pages/Home/Home.jsx";
+import Post from "./pages/Post/Post.jsx";
+import NavigationBar from "./components/NavigationBar/NavigationBar.jsx";
 
 import {
   BrowserRouter as Router,
@@ -14,6 +15,7 @@ function App() {
         <NavigationBar />
         <Routes>
           <Route exact path="/" element={<Home/>} />
+          <Route exact path="/post" element={<Post/>} />
         </Routes>
       </Router>
     </div>
