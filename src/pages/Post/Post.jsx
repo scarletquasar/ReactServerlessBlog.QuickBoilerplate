@@ -6,7 +6,7 @@ function Post(props) {
     return (
         <main>
             <SideBar />
-            <section>
+            <section id="post-body">
                 <h1 dangerouslySetInnerHTML={{__html: markdown.toHTML("**Test**")}} />
             </section>
         </main>

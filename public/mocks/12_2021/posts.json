@@ -1,35 +1,35 @@
 [
     {
         "id": 2,
-        "enUs-title": "Test Post",
-        "enUs-miniature": null,
-        "enUs-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
-        "enUs-source": null,
-        "ptBr-title": "Postagem de Teste",
-        "ptBr-miniature": null,
-        "ptBr-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
-        "ptBr-source": null
+        "en-Us-title": "Test Post",
+        "en-Us-miniature": null,
+        "en-Us-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
+        "en-Us-source": null,
+        "pt-Br-title": "Postagem de Teste",
+        "pt-Br-miniature": null,
+        "pt-Br-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
+        "pt-Br-source": null
     },
     {
         "id": 1,
-        "enUs-title": "Test Post",
-        "enUs-miniature": null,
-        "enUs-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
-        "enUs-source": null,
-        "ptBr-title": "Postagem de Teste",
-        "ptBr-miniature": null,
-        "ptBr-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
-        "ptBr-source": null
+        "en-Us-title": "Test Post",
+        "en-Us-miniature": null,
+        "en-Us-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
+        "en-Us-source": null,
+        "pt-Br-title": "Postagem de Teste",
+        "pt-Br-miniature": null,
+        "pt-Br-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
+        "pt-Br-source": null
     },
     {
         "id": 0,
-        "enUs-title": "Test Post",
-        "enUs-miniature": null,
-        "enUs-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
-        "enUs-source": null,
-        "ptBr-title": "Postagem de Teste",
-        "ptBr-miniature": null,
-        "ptBr-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
-        "ptBr-source": null
+        "en-Us-title": "Test Post",
+        "en-Us-miniature": null,
+        "en-Us-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
+        "en-Us-source": null,
+        "pt-Br-title": "Postagem de Teste",
+        "pt-Br-miniature": null,
+        "pt-Br-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
+        "pt-Br-source": null
     }
 ]

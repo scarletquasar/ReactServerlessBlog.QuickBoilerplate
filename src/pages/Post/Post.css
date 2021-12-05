@@ -1,4 +1,4 @@
-section {
+#post-body {
     font-family: "Raleway";
     padding-left: 3%;
 
@@ -6,6 +6,6 @@ section {
     overflow-y: scroll;
 }
 
-section h1 {
+#post-body h1 {
     font-size: 2em;
 }
