@@ -10,33 +10,65 @@ aside {
     align-items: center;
 }
 
-aside input {
+aside input[type=text] {
     color: var(--text);
     font-family: "Raleway";
     margin-top: 8%;
-    height: 5%;
+    height: 100%;
     width: 65%;
+    padding: 0;
 
     font-size: 1rem;
     border: 0.1em solid var(--text);
-    border-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    border-top-left-radius: 0.5em;
     text-align: center;
-    outline: transparent;
+    outline: none;
     transition: 0.5s ease;
 
     background: var(--foreground);
 }
 
 aside button {
-    height: 5%;
-    width: 15%;
+    transition: 0.3s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 8%;
+
+    width: 2em;
+    padding: 0;
+    height: 100%;
 
     font-size: 1rem;
-    border: 0.1em solid var(--text);
-    border-radius: 0.5em;
-    text-align: center;
-    outline: transparent;
-    transition: 0.5s ease;
 
+    text-align: center;
+    transition: 0.5s ease;
+    border: 0.1em solid var(--text);
+    border-bottom-right-radius: 0.5em;
+    border-top-right-radius: 0.5em;
     background: var(--foreground);
+}
+
+aside button:hover {
+    background: var(--foreground-side);
+}
+
+aside p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 5%;
+    width: 60%;
+}
+
+input, button {
+    font-size: inherit;
+    padding: 0.2em;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
 }

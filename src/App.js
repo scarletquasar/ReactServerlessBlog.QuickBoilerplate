@@ -22,7 +22,9 @@ function App() {
           <NavigationBar />
           <Routes>
             <Route exact path="/" element={<Home/>} />
+            <Route path="/search" element={<Home/>} />
             <Route path="/search/:query" element={<Home/>} />
+            <Route path="/post" element={<Home/>} />
             <Route path="/post/:source" element={<Post/>} />
           </Routes>
         </Router>
