@@ -1,6 +1,28 @@
 aside {
     width: 20vw;
     height: 90vh;
+
     background: var(--foreground);
     backdrop-filter: blur(5em);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside input {
+    color: var(--text);
+    font-family: "Raleway";
+    margin-top: 8%;
+    height: 5%;
+    width: 80%;
+
+    font-size: 1rem;
+    border: 0.1em solid var(--text);
+    border-radius: 0.5em;
+    text-align: center;
+    outline: transparent;
+    transition: 0.5s ease;
+
+    background: var(--foreground);
 }
