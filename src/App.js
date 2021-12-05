@@ -22,7 +22,7 @@ function App() {
           <NavigationBar />
           <Routes>
             <Route exact path="/" element={<Home/>} />
-            <Route exact path="/post" element={<Post/>} />
+            <Route path="/post/:source" element={<Post/>} />
           </Routes>
         </Router>
       </div>

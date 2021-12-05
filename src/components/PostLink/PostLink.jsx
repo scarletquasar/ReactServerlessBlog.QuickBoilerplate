@@ -9,7 +9,7 @@ function PostLink(props) {
     }
     
     return(
-        <Link to={props.source ?? "/"}>
+        <Link to={"post/" + props.source ?? "/"}>
             <article>
                 <div>
                     <h2>{props.title ?? "Post"}</h2>
