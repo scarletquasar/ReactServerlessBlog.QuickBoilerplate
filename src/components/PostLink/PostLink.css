@@ -1,0 +1,10 @@
+article {
+    margin: 5%;
+    width: 75%;
+    height: 30vh;
+
+    border-radius: 1em;
+
+    background: var(--foreground);
+    backdrop-filter: blur(5em);
+}
