@@ -1,5 +1,6 @@
 aside {
-    width: 20%;
+    width: 20vw;
     height: 90vh;
-    background: red;
+    background: var(--foreground);
+    backdrop-filter: blur(5em);
 }

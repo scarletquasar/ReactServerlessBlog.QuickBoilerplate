@@ -1,14 +1,14 @@
 import "./NavigationBar.css";
-
+import { Link } from "react-router-dom";
 function NavigationBar() {
     return (
         <nav>
             <ul>
                 <li id="title">quasardev</li>
-                <li>Home</li>
-                <li>Postagens</li>
             </ul>
             <ul>
+                <li>pt-Br</li>
+                <li><Link to="/">Home</Link></li>
             </ul>
         </nav>
     );

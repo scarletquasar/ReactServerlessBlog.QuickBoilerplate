@@ -4,15 +4,14 @@ import NavigationBar from "./components/NavigationBar/NavigationBar.js";
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <NavigationBar />
       <Router>
+        <NavigationBar />
         <Routes>
           <Route exact path="/" element={<Home/>} />
         </Routes>
