@@ -1,17 +1,20 @@
 import { markdown } from "markdown";
 import SideBar from "../../components/SideBar/SideBar.jsx";
 import "./Post.css";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
+import { languageContext } from "../../contexts/languageContext.jsx";
 import { fetchSourcePost } from "../../data/fetchSourcePost.js";
 import { useParams } from "react-router-dom";
 
 function Post(props) {
     const [post, setPost] = useState(null);
+    const [userLang] = useContext(languageContext);
     const { source } = useParams();
+    
     useEffect(() => {
         fetchSourcePost(new Date(), source)
         .then(result => setPost(result))
-    }, []);
+    }, [userLang]);
 
     return (
         <main>

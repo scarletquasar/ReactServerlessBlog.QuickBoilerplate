@@ -1,34 +1,12 @@
 [
     {
-        "id": 2,
-        "en-Us-title": "Test Post",
-        "en-Us-miniature": null,
-        "en-Us-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
-        "pt-Br-title": "Postagem de Teste",
-        "pt-Br-miniature": null,
-        "pt-Br-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
-        "source": "post3"
-    },
-    {
-        "id": 1,
-        "en-Us-title": "Test Post",
-        "en-Us-miniature": null,
-        "en-Us-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
-        "en-Us-source": null,
-        "pt-Br-title": "Postagem de Teste",
-        "pt-Br-miniature": null,
-        "pt-Br-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
-        "pt-Br-source": null
-    },
-    {
         "id": 0,
         "en-Us-title": "Test Post",
         "en-Us-miniature": null,
         "en-Us-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
-        "en-Us-source": null,
         "pt-Br-title": "Postagem de Teste",
         "pt-Br-miniature": null,
         "pt-Br-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
-        "pt-Br-source": null
+        "source": "post1"
     }
 ]
