@@ -5,6 +5,7 @@ Info: Work in progress.
 # TODO:
 
 - [ ] Accessibility optimization
+- [ ] SEO optimization
 - [ ] Web responsiveness in mobile devices
 - [ ] Detailed documentation
 
