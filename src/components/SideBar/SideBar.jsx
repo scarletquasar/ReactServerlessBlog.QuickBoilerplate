@@ -3,6 +3,7 @@ import { languageDictionary } from "../../data/languageManager";
 import { language } from "../../data/languageManager";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faTwitter, faGithub, faDev } from "@fortawesome/free-brands-svg-icons"
 import { useRef } from "react";
 
 function startSearch(target) {
@@ -13,7 +14,7 @@ function SideBar() {
     const searchRef = useRef(null);
     return (
         <aside>
-            <p>
+            <div className="item">
                 <input 
                 type="text"
                 ref={searchRef}
@@ -22,8 +23,8 @@ function SideBar() {
                 <button onClick={() => startSearch(searchRef.current.value)}>
                     <FontAwesomeIcon color="white" icon={faSearch} />
                 </button>
-            </p>
-            <p>
+            </div>
+            <div className="item">
                 <small>Javascript</small>
                 <small>Frontend</small>
                 <small>Backend</small>
@@ -31,7 +32,19 @@ function SideBar() {
                 <small>Asp.Net</small>
                 <small>Node.js</small>
                 <small>PostgreSQL</small>
-            </p>
+                <p>
+                    <button className="social-media" onClick={() => window.open("https://twitter.com/QuasarEternum")}>
+                        <FontAwesomeIcon  color="white" icon={faTwitter} />
+                    </button>
+                    <button className="social-media" onClick={() => window.open("https://github.com/EternalQuasar0206/")}>
+                        <FontAwesomeIcon color="white" icon={faGithub} />
+                    </button>
+                    <button className="social-media" onClick={() => window.open("")}>
+                        <FontAwesomeIcon color="white" icon={faDev} />
+                    </button>
+                </p>
+            </div>
+
 
         </aside>
     );

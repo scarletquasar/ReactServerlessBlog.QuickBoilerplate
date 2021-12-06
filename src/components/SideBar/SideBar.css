@@ -13,7 +13,6 @@ aside {
 aside input[type=text] {
     color: var(--text);
     font-family: "Raleway";
-    margin-top: 8%;
     height: 100%;
     width: 65%;
     padding: 0;
@@ -36,8 +35,6 @@ aside button {
     justify-content: center;
     align-items: center;
 
-    margin-top: 8%;
-
     width: 2em;
     padding: 0;
     height: 100%;
@@ -56,15 +53,39 @@ aside button, aside small:hover {
     background: var(--foreground-side);
 }
 
-aside p {
+aside .item {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     flex-flow: row wrap;
 
+    margin-block: 5%;
+
     height: 5%;
     width: 90%;
+}
+
+aside .item:first-child {
+    margin-top: 10%;
+}
+
+aside .item p {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+aside .item .social-media {
+    font-size: 1.5em;
+
+    border: none;
+    border-radius: 0.5em;
+
+    background: none;
+
+    padding: 3%;
+    margin-inline: 3%;
 }
 
 aside small {
