@@ -1,4 +1,3 @@
-import { markdown } from "markdown";
 import SideBar from "../../components/SideBar/SideBar.jsx";
 import "./Post.css";
 import { useState, useEffect, useContext } from "react";
@@ -10,7 +9,7 @@ function Post(props) {
     const [post, setPost] = useState(null);
     const [userLang] = useContext(languageContext);
     const { source } = useParams();
-    
+
     useEffect(() => {
         fetchSourcePost(source)
         .then(result => setPost(result))
@@ -20,7 +19,7 @@ function Post(props) {
         <main>
             <SideBar />
             <section id="post-body">
-                {post && <div dangerouslySetInnerHTML={{__html: markdown.toHTML(post)}} />}
+                {post && <div dangerouslySetInnerHTML={{__html: post}} />}
             </section>
         </main>
     )

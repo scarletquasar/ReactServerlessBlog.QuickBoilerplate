@@ -4,6 +4,8 @@
 
     height: 90vh;
     overflow-y: scroll;
+
+    text-shadow: 0.1em 0.1em 0.3em black;
 }
 
 #post-body h1 {
