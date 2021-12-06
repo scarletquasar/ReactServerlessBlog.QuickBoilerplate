@@ -3,6 +3,10 @@
         width: 100%;
     }
 
+    article h2 {
+        font-size: 1.3em;
+    }
+
     article {
         transition: 0.3s;
         
@@ -10,7 +14,7 @@
         margin-inline: 5%;
 
         width: 90%;
-        height: 20vh;
+        height: 18vh;
 
         border-radius: 1em;
 
@@ -18,6 +22,7 @@
         backdrop-filter: blur(5em);
 
         display: flex;
+        text-align: center;
         justify-content: center;
     }
 
