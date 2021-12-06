@@ -1,6 +1,6 @@
+import { Link } from "react-router-dom";
 import "./PostLink.css";
 import bgPlaceholder from "../../media/img/background/placeholderBg.jpg";
-import { Link } from "react-router-dom";
 
 function PostLink(props) {
     const bgSheet = {
@@ -25,9 +25,7 @@ function PostLink(props) {
                         <small>{props.createdAt ?? ""}</small>
                     </p>
                 </div>
-                <div style={bgSheet}>
-                    
-                </div>
+                <div style={bgSheet} />
             </article>
         </Link>
     )

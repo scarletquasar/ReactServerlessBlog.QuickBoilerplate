@@ -6,9 +6,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, faGithub, faDev } from "@fortawesome/free-brands-svg-icons"
 import { useRef } from "react";
 
-function startSearch(target) {
-    window.location.href = "/search/" + target;
-}
+const startSearch = (target) => window.location.href = "/search/" + target;
 
 function SideBar() {
     const searchRef = useRef(null);

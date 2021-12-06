@@ -2,7 +2,7 @@ import "./NavigationBar.css";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { language } from "../../data/languageManager";
-import { languageContext } from "../../contexts/languageContext.jsx";
+import { languageContext } from "../../contexts/languageContext";
 
 function NavigationBar() {
     const [userLang, setUserLang] = useContext(languageContext);
