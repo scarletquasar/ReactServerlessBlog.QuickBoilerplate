@@ -2,7 +2,7 @@ import "./NoPost.css";
 
 function NoPost(props) {
     return (
-        <div class="no-post">
+        <div className="no-post">
             {props.message ?? ""}
         </div>
     )

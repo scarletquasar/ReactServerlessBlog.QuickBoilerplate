@@ -21,7 +21,7 @@ export async function fetchPosts(query) {
         });
         console.log(postsContainer.content());
         console.log(queryContainer.content());
-        return queryContainer.content();
+        return queryContainer.first(50).content().filter(x => x !== undefined);
     }
-    return postsContainer.content();
+    return postsContainer.first(5).content().filter(x => x !== undefined);
 }

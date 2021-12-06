@@ -1,109 +1,117 @@
-aside {
-    width: 20vw;
-    height: 100%;
-
-    background: var(--foreground);
-    backdrop-filter: blur(5em);
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media (max-width: 639px) and (orientation: portrait) {
+    aside {
+        display: none;
+    }
 }
 
-aside input[type=text] {
-    color: var(--text);
-    font-family: "Raleway";
-    height: 100%;
-    width: 65%;
-    padding: 0;
-
-    font-size: 1rem;
-    border: 0.1em solid var(--text);
-    border-bottom-left-radius: 0.5em;
-    border-top-left-radius: 0.5em;
-    text-align: center;
-    outline: none;
-    transition: 0.5s ease;
-
-    background: var(--foreground);
-}
-
-aside button {
-    transition: 0.3s;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 2em;
-    padding: 0;
-    height: 100%;
-
-    font-size: 1rem;
-
-    text-align: center;
-    transition: 0.5s ease;
-    border: 0.1em solid var(--text);
-    border-bottom-right-radius: 0.5em;
-    border-top-right-radius: 0.5em;
-    background: var(--foreground);
-}
-
-aside button, aside small:hover {
-    background: var(--foreground-side);
-}
-
-aside .item {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-flow: row wrap;
-
-    margin-block: 5%;
+@media (min-width: 640px) and (orientation: landscape) {
+    aside {
+        width: 20vw;
+        height: 100%;
     
-    width: 90%;
-}
-
-aside .item:first-child {
-    margin-top: 10%;
-}
-
-aside .item p {
-    display: flex;
-    width: 60%;
-    justify-content: space-between;
-}
-
-aside .item .social-media {
-    font-size: 1.5em;
-
-    border: none;
-    border-radius: 0.5em;
-
-    background: none;
-
-    padding: 3%;
-    margin-inline: 3%;
-}
-
-aside small {
-    cursor: pointer;
-
-    padding: 2%;
-    margin: 2%;
-
-    text-align: center;
-    transition: 0.5s ease;
-    border: 0.1em solid var(--text);
-    border-radius: 0.5em;
-    background: var(--foreground);
-}
-
-input, button {
-    font-size: inherit;
-    padding: 0.2em;
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box;
-    box-sizing: content-box;
+        background: var(--foreground);
+        backdrop-filter: blur(5em);
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    aside input[type=text] {
+        color: var(--text);
+        font-family: "Raleway";
+        height: 100%;
+        width: 65%;
+        padding: 0;
+    
+        font-size: 1rem;
+        border: 0.1em solid var(--text);
+        border-bottom-left-radius: 0.5em;
+        border-top-left-radius: 0.5em;
+        text-align: center;
+        outline: none;
+        transition: 0.5s ease;
+    
+        background: var(--foreground);
+    }
+    
+    aside button {
+        transition: 0.3s;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        width: 2em;
+        padding: 0;
+        height: 100%;
+    
+        font-size: 1rem;
+    
+        text-align: center;
+        transition: 0.5s ease;
+        border: 0.1em solid var(--text);
+        border-bottom-right-radius: 0.5em;
+        border-top-right-radius: 0.5em;
+        background: var(--foreground);
+    }
+    
+    aside button, aside small:hover {
+        background: var(--foreground-side);
+    }
+    
+    aside .item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row wrap;
+    
+        margin-block: 5%;
+        
+        width: 90%;
+    }
+    
+    aside .item:first-child {
+        margin-top: 10%;
+    }
+    
+    aside .item p {
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+    }
+    
+    aside .item .social-media {
+        font-size: 1.5em;
+    
+        border: none;
+        border-radius: 0.5em;
+    
+        background: none;
+    
+        padding: 3%;
+        margin-inline: 3%;
+    }
+    
+    aside small {
+        cursor: pointer;
+    
+        padding: 2%;
+        margin: 2%;
+    
+        text-align: center;
+        transition: 0.5s ease;
+        border: 0.1em solid var(--text);
+        border-radius: 0.5em;
+        background: var(--foreground);
+    }
+    
+    input, button {
+        font-size: inherit;
+        padding: 0.2em;
+        -moz-box-sizing: content-box;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+    }
 }
