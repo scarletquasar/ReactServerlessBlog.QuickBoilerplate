@@ -40,5 +40,9 @@ Example:
 # Routes
 
 `/` - Root
+<br>
+
 `/post/{identifier}` - Post URL
+<br>
+
 `/search/{query}` - Search URL
