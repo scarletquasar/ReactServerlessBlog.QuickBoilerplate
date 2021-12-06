@@ -18,7 +18,7 @@ $ git clone https://github.com/EternalQuasar0206/react-serverless-blog-boilerpla
 $ cd react-serverless-blog-boilerplate
 
 # Install the dependencies
-$ yarn install
+$ yarn install --force
 
 # Run the project
 $ yarn start
