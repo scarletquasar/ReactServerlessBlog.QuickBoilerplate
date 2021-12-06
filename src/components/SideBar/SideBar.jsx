@@ -14,7 +14,7 @@ function SideBar() {
     const searchRef = useRef(null);
     return (
         <aside>
-            <div className="item">
+            <div className="item" style={{height: "5%"}}>
                 <input 
                 type="text"
                 ref={searchRef}
@@ -24,7 +24,7 @@ function SideBar() {
                     <FontAwesomeIcon color="white" icon={faSearch} />
                 </button>
             </div>
-            <div className="item">
+            <div onClick={(e) => startSearch(e.target.innerText)} className="item">
                 <small>Javascript</small>
                 <small>Frontend</small>
                 <small>Backend</small>
@@ -44,8 +44,6 @@ function SideBar() {
                     </button>
                 </p>
             </div>
-
-
         </aside>
     );
 }

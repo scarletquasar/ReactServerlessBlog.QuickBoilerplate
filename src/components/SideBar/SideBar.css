@@ -1,6 +1,6 @@
 aside {
     width: 20vw;
-    height: 90vh;
+    height: 100%;
 
     background: var(--foreground);
     backdrop-filter: blur(5em);
@@ -61,8 +61,7 @@ aside .item {
     flex-flow: row wrap;
 
     margin-block: 5%;
-
-    height: 5%;
+    
     width: 90%;
 }
 

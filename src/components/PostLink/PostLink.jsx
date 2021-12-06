@@ -21,6 +21,9 @@ function PostLink(props) {
                         odio non turpis. Vestibulum luctus at quam sed suscipit. Sed ut felis id purus 
                         viverra placerat`}
                     </p>
+                    <p>
+                        <small>{props.createdAt ?? ""}</small>
+                    </p>
                 </div>
                 <div style={bgSheet}>
                     

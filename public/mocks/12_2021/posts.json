@@ -9,6 +9,7 @@
         "pt-Br-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
         "source": "post1",
         "pt-Br-tags": ["JavaScript, Infraestrutura, Back-end"],
-        "en-Us-tags": ["JavaScript, Infrastructure, Back-end"]
+        "en-Us-tags": ["JavaScript, Infrastructure, Back-end"],
+        "createdAt": "06/12/2021 - 13:00"
     }
 ]

@@ -21,6 +21,7 @@ function PostsContainer(props) {
                     source={post.source} 
                     background={post[`${userLang}-background`]}
                     tags={post[`${userLang}-tags`]}
+                    createdAt={post.createdAt}
                     key={Date.now() + Math.random()}
                     />
                 }
