@@ -23,6 +23,7 @@ function PostsContainer(props) {
                     background={post[`${userLang}-background`]}
                     tags={post[`${userLang}-tags`]}
                     createdAt={post.createdAt}
+                    miniature={post.miniature}
                     key={Date.now() + Math.random()}
                     />
                 }

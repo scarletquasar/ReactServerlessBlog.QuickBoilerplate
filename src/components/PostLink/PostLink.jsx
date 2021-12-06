@@ -4,7 +4,7 @@ import bgPlaceholder from "../../media/img/background/placeholderBg.jpg";
 
 function PostLink(props) {
     const bgSheet = {
-        backgroundImage: `url('${props.background ?? bgPlaceholder}')`,
+        backgroundImage: `url('${props.miniature ?? bgPlaceholder}')`,
         backgroundSize: "cover"
     }
     
@@ -13,7 +13,7 @@ function PostLink(props) {
             <article>
                 <div>
                     <h2>{props.title ?? "Post"}</h2>
-                    <small>{props.tags.flat()}</small>
+                    <small>{props.tags.toString().replaceAll(",", ", ")}</small>
                     <p>
                         {props.description ?? `Lorem ipsum dolor sit amet, consectetur adipiscing 
                         elit. Proin fringilla lobortis lorem ut ullamcorper. Pellentesque ultrices, 

@@ -1,15 +1,14 @@
 [
     {
         "id": 0,
-        "en-Us-title": "Test Post",
-        "en-Us-miniature": null,
-        "en-Us-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
-        "pt-Br-title": "Postagem de Teste",
-        "pt-Br-miniature": null,
-        "pt-Br-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla lobortis lorem ut ullamcorper.",
+        "en-Us-title": "My first blog post",
+        "en-Us-description": "An experience arises...",
+        "pt-Br-title": "Minha primeira postagem no blog",
+        "pt-Br-description": "O início de uma experiência.",
         "source": "post1",
-        "pt-Br-tags": ["JavaScript, Infraestrutura, Back-end"],
-        "en-Us-tags": ["JavaScript, Infrastructure, Back-end"],
+        "miniature": "https://i.imgur.com/00O7hb2.jpg",
+        "pt-Br-tags": ["Learn in public", "Desenvolvimento de Software"],
+        "en-Us-tags": ["Learn in public", "Software Development"],
         "createdAt": "06/12/2021 - 13:00"
     }
 ]
