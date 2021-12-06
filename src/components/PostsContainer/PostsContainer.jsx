@@ -2,8 +2,10 @@ import "./PostsContainer.css";
 import PostLink from "../PostLink/PostLink";
 import { fetchPosts } from "../../data/fetchPosts.js";
 import { useState, useEffect } from "react";
+import { language, languageDictionary } from "../../data/languageManager";
 import { languageContext } from "../../contexts/languageContext";
 import { useContext } from "react";
+import { NoPost } from "../NoPost/NoPost.jsx";
 
 function PostsContainer(props) {
     const [posts, setPosts] = useState(null);
@@ -26,6 +28,9 @@ function PostsContainer(props) {
                     />
                 }
             )}
+            {!posts && <NoPost message={languageDictionary[language()]["loading"]} />}
+            {(posts && posts.length < 1) && <NoPost message={languageDictionary[language()]["nopost"]} />}
+            
         </section>
     );
 }

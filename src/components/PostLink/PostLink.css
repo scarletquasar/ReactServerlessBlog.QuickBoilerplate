@@ -1,5 +1,5 @@
 article {
-    transition: 0.5s;
+    transition: 0.3s;
     
     margin: 5%;
     width: 75%;
@@ -14,7 +14,7 @@ article {
 }
 
 article:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 article div {

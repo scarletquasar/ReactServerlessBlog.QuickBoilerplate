@@ -1,9 +1,13 @@
 export const languageDictionary = {
     "pt-Br": {
-        "search": "Pesquisar..."
+        "search": "Pesquisar...",
+        "nopost": "Nenhuma postagem encontrada",
+        "loading": "Carregando..."
     },
     "en-Us": {
-        "search": "Search..."
+        "search": "Search...",
+        "nopost": "Nothing to see here...",
+        "loading": "Loading..."
     }
 }
 

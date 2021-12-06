@@ -24,14 +24,17 @@ function SideBar() {
                     <FontAwesomeIcon color="white" icon={faSearch} />
                 </button>
             </div>
-            <div onClick={(e) => startSearch(e.target.innerText)} className="item">
-                <small>Javascript</small>
-                <small>Frontend</small>
-                <small>Backend</small>
-                <small>C#</small>
-                <small>Asp.Net</small>
-                <small>Node.js</small>
-                <small>PostgreSQL</small>
+            <div className="item">
+                <div className="item" onClick={(e) => startSearch(e.target.innerText)}>
+                    <small>Javascript</small>
+                    <small>Frontend</small>
+                    <small>Backend</small>
+                    <small>C#</small>
+                    <small>Asp.Net</small>
+                    <small>Node.js</small>
+                    <small>PostgreSQL</small>
+                </div>
+
                 <p>
                     <button className="social-media" onClick={() => window.open("https://twitter.com/QuasarEternum")}>
                         <FontAwesomeIcon  color="white" icon={faTwitter} />
