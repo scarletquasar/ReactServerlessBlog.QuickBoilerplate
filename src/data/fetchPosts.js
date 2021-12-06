@@ -4,7 +4,7 @@ export async function fetchPosts(query) {
     const postsContainer = new Container([]);
     const queryContainer = new Container([]);
 
-    await fetch(`/mocks/posts.json`)
+    await fetch(`/content/posts.json`)
     .then(data => data.json())
     .then(result => postsContainer.set(result))
 
