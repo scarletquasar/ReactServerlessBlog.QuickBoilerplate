@@ -24,13 +24,8 @@ function SideBar() {
             </div>
             <div className="item">
                 <div className="item" onClick={(e) => startSearch(e.target.innerText)}>
-                    <small>Javascript</small>
-                    <small>Frontend</small>
-                    <small>Backend</small>
-                    <small>C#</small>
-                    <small>Asp.Net</small>
-                    <small>Node.js</small>
-                    <small>PostgreSQL</small>
+                    <small>Tag1</small>
+                    <small>Tag2</small>
                 </div>
 
                 <p>
