@@ -36,3 +36,9 @@ Example:
 <img src="https://i.imgur.com/jS5n6oz.png">
 
 </details>
+
+# Routes
+
+`/` - Root
+`/post/{identifier}` - Post URL
+`/search/{query}` - Search URL
