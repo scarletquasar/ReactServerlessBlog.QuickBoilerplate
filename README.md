@@ -43,7 +43,7 @@ Example:
 `/` - Root
 <br>
 
-`/post/{identifier}` - Post URL
+`/post/{source/filename}` - Post URL
 <br>
 
 `/search/{query}` - Search URL
