@@ -1,57 +1,87 @@
-article {
-    transition: 0.3s;
-    
-    margin: 5%;
-    width: 75%;
-    height: 30vh;
+@media (max-width: 639px) and (orientation: portrait) {
+    a {
+        width: 100%;
+    }
 
-    border-radius: 1em;
+    article {
+        transition: 0.3s;
+        
+        margin-block: 5%;
+        margin-inline: 5%;
 
-    background: var(--foreground-clean);
-    backdrop-filter: blur(5em);
+        width: 90%;
+        height: 20vh;
 
-    display: flex;
+        border-radius: 1em;
+
+        background: var(--foreground-clean);
+        backdrop-filter: blur(5em);
+
+        display: flex;
+        justify-content: center;
+    }
+
+    article p {
+        display: none;
+    }
 }
 
-article:hover {
-    transform: scale(1.02);
-}
+@media (min-width: 640px) and (orientation: landscape) {
+    article {
+        transition: 0.3s;
+        
+        margin: 5%;
+        width: 75%;
+        height: 30vh;
 
-article div {
-    display: flex;
-    flex-direction: column;
-}
+        border-radius: 1em;
 
-article p {
-    margin: 0;
-    margin-top: 1%;
-    padding: 0;
-}
+        background: var(--foreground-clean);
+        backdrop-filter: blur(5em);
 
-article div:first-child {
-    margin-inline: 3%;
-    width: 50%;
-    height: 100%;
-}
+        display: flex;
+    }
 
-article div:first-child h2 {
-    margin-bottom: 1%;
-    font-family: "Raleway";
-}
+    article:hover {
+        transform: scale(1.02);
+    }
 
-article div:last-child {
-    width: 50%;
-    height: 100%;
+    article div {
+        display: flex;
+        flex-direction: column;
+    }
 
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
-    
-    flex-direction: row-reverse;
+    article p {
+        margin: 0;
+        margin-top: 1%;
+        padding: 0;
+    }
 
-    font-family: "Raleway";
-}
+    article div:first-child {
+        margin-inline: 3%;
+        width: 50%;
+        height: 100%;
+    }
 
-small {
-    color: var(--text-secondary);
-    font-family: "Source Code Pro";
+    article div:first-child h2 {
+        margin-bottom: 1%;
+        font-family: "Raleway";
+    }
+
+    article div:last-child {
+        width: 50%;
+        height: 100%;
+
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 1em;
+        
+        flex-direction: row-reverse;
+
+        font-family: "Raleway";
+    }
+
+    small {
+        color: var(--text-secondary);
+        font-family: "Source Code Pro";
+    }
 }
