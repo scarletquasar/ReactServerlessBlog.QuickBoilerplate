@@ -3,21 +3,28 @@ import { languageDictionary } from "../../data/languageManager";
 import { language } from "../../data/languageManager";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { useRef } from "react";
+
+function startSearch(target) {
+    window.location.href = "/search/" + target;
+}
 
 function SideBar() {
+    const searchRef = useRef(null);
     return (
         <aside>
             <p>
                 <input 
-                type="text" 
+                type="text"
+                ref={searchRef}
                 placeholder={languageDictionary[language()]["search"]} 
                 />
-                <button>
+                <button onClick={() => startSearch(searchRef.current.value)}>
                     <FontAwesomeIcon color="white" icon={faSearch} />
                 </button>
             </p>
         </aside>
     );
-  }
+}
   
-  export default SideBar;
+export default SideBar;
