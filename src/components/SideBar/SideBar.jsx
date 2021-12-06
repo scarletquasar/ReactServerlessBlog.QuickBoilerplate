@@ -23,6 +23,30 @@ function SideBar() {
                     <FontAwesomeIcon color="white" icon={faSearch} />
                 </button>
             </p>
+            <p>
+                <small>
+                    sas
+                </small>
+                <small>
+                    sas
+                </small>
+                <small>
+                    sas
+                </small>
+                <small>
+                    sas
+                </small>
+                <small>
+                    sas
+                </small>
+                <small>
+                    sas
+                </small>
+                <small>
+                    sas
+                </small>
+            </p>
+
         </aside>
     );
 }

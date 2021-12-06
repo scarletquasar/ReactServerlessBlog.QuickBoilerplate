@@ -52,7 +52,7 @@ aside button {
     background: var(--foreground);
 }
 
-aside button:hover {
+aside button, small:hover {
     background: var(--foreground-side);
 }
 
@@ -61,8 +61,23 @@ aside p {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-flow: row wrap;
+
     height: 5%;
     width: 60%;
+}
+
+aside small {
+    cursor: pointer;
+
+    padding: 2%;
+    margin: 2%;
+
+    text-align: center;
+    transition: 0.5s ease;
+    border: 0.1em solid var(--text);
+    border-radius: 0.5em;
+    background: var(--foreground);
 }
 
 input, button {
