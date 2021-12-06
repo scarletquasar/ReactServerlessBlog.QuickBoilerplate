@@ -10,6 +10,20 @@ Info: Work in progress.
 
 # How To
 
+## Install
+
+```sh
+# Clone the repository
+$ git clone https://github.com/EternalQuasar0206/react-serverless-blog-boilerplate
+$ cd react-serverless-blog-boilerplate
+
+# Install the dependencies
+$ yarn install
+
+# Run the project
+$ yarn start
+```
+
 ## Create a post
 To create a post you must add an object following the pattern of the `public/content/posts.json` file. Each post
 should have their equivalent in pt-Br and en-Us at the end of their source files (inside of `public/content/posts`).
