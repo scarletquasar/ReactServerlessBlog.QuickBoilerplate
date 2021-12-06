@@ -52,7 +52,7 @@ aside button {
     background: var(--foreground);
 }
 
-aside button, small:hover {
+aside button, aside small:hover {
     background: var(--foreground-side);
 }
 
@@ -64,7 +64,7 @@ aside p {
     flex-flow: row wrap;
 
     height: 5%;
-    width: 60%;
+    width: 90%;
 }
 
 aside small {

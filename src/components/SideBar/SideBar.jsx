@@ -24,27 +24,13 @@ function SideBar() {
                 </button>
             </p>
             <p>
-                <small>
-                    sas
-                </small>
-                <small>
-                    sas
-                </small>
-                <small>
-                    sas
-                </small>
-                <small>
-                    sas
-                </small>
-                <small>
-                    sas
-                </small>
-                <small>
-                    sas
-                </small>
-                <small>
-                    sas
-                </small>
+                <small>Javascript</small>
+                <small>Frontend</small>
+                <small>Backend</small>
+                <small>C#</small>
+                <small>Asp.Net</small>
+                <small>Node.js</small>
+                <small>PostgreSQL</small>
             </p>
 
         </aside>
