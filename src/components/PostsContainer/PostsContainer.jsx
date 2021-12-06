@@ -9,7 +9,7 @@ function PostsContainer(props) {
     const [posts, setPosts] = useState(null);
     const [userLang] = useContext(languageContext);
 
-    useEffect(() => fetchPosts(new Date(), props.query).then(result => setPosts(result)), []);
+    useEffect(() => fetchPosts(props.query).then(result => setPosts(result)), []);
 
     return (
         <section>

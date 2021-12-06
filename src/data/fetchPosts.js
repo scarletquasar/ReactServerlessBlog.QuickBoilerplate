@@ -1,11 +1,10 @@
 import { Container } from "container-dot-js";
 
-export async function fetchPosts(date, query) {
+export async function fetchPosts(query) {
     const postsContainer = new Container([]);
     const queryContainer = new Container([]);
 
-    const targetFolder = `${date.getMonth() + 1}_${date.getFullYear()}`;
-    await fetch(`/mocks/${targetFolder}/posts.json`)
+    await fetch(`/mocks/posts.json`)
     .then(data => data.json())
     .then(result => postsContainer.set(result))
 

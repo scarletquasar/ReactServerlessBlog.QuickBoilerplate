@@ -8,6 +8,16 @@
     --blue-sky: #00F0E1;
 }
 
+::-webkit-scrollbar {
+    width: 1em;
+    height: 1em;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background-color: var(--foreground);
+    border-radius: 1em;
+}
+
 body {
     color: var(--text);
     font-family: "Ubuntu";

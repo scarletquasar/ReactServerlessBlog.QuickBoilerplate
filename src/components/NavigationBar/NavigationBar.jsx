@@ -15,7 +15,7 @@ function NavigationBar() {
     return (
         <nav>
             <ul>
-                <li id="title">quasardev</li>
+                <Link to="/"><li id="title">quasardev</li></Link>
             </ul>
             <ul>
                 <li onClick={() => triggerLanguage()}>{userLang}</li>

@@ -12,7 +12,7 @@ function Post(props) {
     const { source } = useParams();
     
     useEffect(() => {
-        fetchSourcePost(new Date(), source)
+        fetchSourcePost(source)
         .then(result => setPost(result))
     }, [userLang]);
 
